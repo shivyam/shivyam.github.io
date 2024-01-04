@@ -1,0 +1,53 @@
+import React from 'react';
+import './navbar.css';
+import {Link} from 'react-scroll';
+import contactImg from '../../assets/contact.png';
+
+import {useState} from 'react'
+import logo from '../../assets/portfolio-2.png';
+import menu from '../../assets/menu.png';
+
+const Navbar=()=>{
+
+    const [fix, setFix]= useState(false);
+    function setFixed(){
+        if(window.scrollY>=10){
+            setFix(true);
+        }
+        else{
+            setFix(false);
+        }
+    }
+    window.addEventListener("scroll",setFixed);
+
+
+    const [showMenu, setShowMenu]= useState(false);
+
+
+    return(
+        <nav className={fix ? 'navbar fixed' : 'navbar' }> 
+            <img src={logo} alt="logo" className="logo"></img>
+            <div className="desktopMenu">
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={0} duration={500} className="desktopMenuListItem">Home</Link>
+                <Link activeClass='active' to='events' spy={true} smooth={true} offset={-140} duration={500} className="desktopMenuListItem">Events</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-170} duration={500} className="desktopMenuListItem">Our Story</Link>
+            </div>
+
+            <button className= "desktopMenuBtn" onClick={()=>{
+                document.getElementById('contact').scrollIntoView({behaviour: 'smooth'});
+            }}>
+                <img src={contactImg} alt="" className="desktopMenuImg"/>Contact Me
+            </button>
+
+            <img src={menu} alt="Menu" className="mobMenu" onClick={()=>setShowMenu(!showMenu)}></img>
+            <div className="navMenu" style= {{display: showMenu? 'flex':'none'}}>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={0} duration={500} className="mobileMenuListItem" onClick={()=> setShowMenu(false)}>Home</Link>
+                <Link activeClass='active' to='events' spy={true} smooth={true} offset={-140} duration={500} className="mobileMenuListItem" onClick={()=> setShowMenu(false)}>Events</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-180} duration={500} className="mobileMenuListItem" onClick={()=> setShowMenu(false)}>Our Story</Link>
+                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-200} duration={500} className="mobileMenuListItem" onClick={()=> setShowMenu(false)}>Contact me</Link>
+            </div>
+        </nav>
+    )
+};
+
+export default Navbar
