@@ -28,8 +28,8 @@
 .logo{
     /*keep ratio of image*/
     object-fit:cover;
-    height: 6rem;
-    width:8rem;
+    height: 4rem;
+    width:6rem;
 }
 
 .desktopMenuListItem{
@@ -41,9 +41,9 @@
 
 .desktopMenuListItem:hover{
     /*spaces out navbar text*/
-    color:#db137a;
+    color:pink;
     padding-bottom:0.5rem;
-    border-bottom:3px solid #db137a;
+    border-bottom:3px solid pink;
     transition: 0.5s;
 }
 
@@ -71,12 +71,11 @@
 }
 
 .active{
-    color:#db137a;
+    color:pink;
     padding-bottom:0.5rem;
-    border-bottom: 3px solid #db137a;
+    border-bottom: 3px solid pink;
 
 }
-
 
 .mobMenu{
     display:none;

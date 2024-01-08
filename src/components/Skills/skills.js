@@ -1,9 +1,9 @@
 import React from 'react';
-import './projects.css';
+import './skills.css';
 import {Link} from 'react-scroll';
 import bg from '../../assets/portfolio-2.png';
 
-const Projects=()=>{
+const Skills=()=>{
     return(
       <div></div>
 
@@ -11,4 +11,4 @@ const Projects=()=>{
 };
 
 
-export default Projects;
+export default Skills;
