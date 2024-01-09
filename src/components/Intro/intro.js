@@ -1,7 +1,8 @@
 import React from 'react';
 import './intro.css';
 import {Link} from 'react-scroll';
-import bg from '../../assets/face.png';
+import bg from '../../assets/face2.png';
+//import bg from '../../assets/portfolio-2.png';
 import btnImg from '../../assets/hireme.png';
 
 import html2canvas from 'html2canvas';

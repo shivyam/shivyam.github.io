@@ -5,7 +5,7 @@ import contactImg from '../../assets/contact.png';
 
 import {useState} from 'react'
 import logo from '../../assets/logo.png';
-import menu from '../../assets/menu.png';
+import menu from '../../assets/menu2.png';
 
 const Navbar=()=>{
 
