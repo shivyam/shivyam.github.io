@@ -9,7 +9,8 @@
 
 
 body{
-    background: rgb(51, 50, 50);
+    /*background: rgb(77, 76, 76);*/
+    background: rgb(73, 65, 57);
     color:white;
     overflow: hidden;
     overflow-y:scroll;

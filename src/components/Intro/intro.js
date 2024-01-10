@@ -23,7 +23,7 @@ const Intro=()=>{
                     Fueled by a passion for learning, I approach every task with a positive attitude and a growth mindset. 
                     Eager to make a meaningful contribution, I aspire to achieve great things in the ever-evolving field 
                     of software development.</p>
-                    <a href="Shivya_Resume.pdf" download="ShivyaMehta_Resume.pdf"><button id="cv-button"  className="cv-button" >Download CV</button></a>
+                    <a href="ShivyaMehta_Resume.pdf" download="ShivyaMehta_Resume.pdf"><button id="cv-button"  className="cv-button" >Download CV</button></a>
             
             
             </div>
