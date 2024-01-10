@@ -21,7 +21,7 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
       date: "September 2017 - July 2022",
       location: "Burnaby, BC",
       grade: "97%",
-      desc: "hii",
+      desc: "Successfully completed the French Immersion program since Kindergarten, achieving a strong proficiency of the language and a deep appreciation for the culture.",
       degree: "Double Dogwood Diploma",
     }
   ];
@@ -36,7 +36,7 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
       role: "Website Designer",
       company: "Bollyfusion",
       date: "June 2023 - Pfesent",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      desc: "Implemented innovative design solutions using ReactJS, HTML5, and CSS to create a visually appealing and responsive website that captivate users’ attention. Boosted customer engagement by implementing user-friendly forms and functionalities on the business website, facilitating seamless communication with owners through email and attracting a larger clientele. Implemented a proactive maintenance plan, ensuring the website’s continuous functionality. Consistently enhance content and features by incorporating feedback from both users and company owners.",
       skills: [
         "ReactJS",
         "HTMl",
@@ -50,7 +50,7 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
       role: "Administrative Assistant",
       company: "Metro Communications Inc.",
       date: "June 2018 - August 2022",
-      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+      desc: "Handled cheques, filed paperwork, and received QuickBooks training for basic bookkeeping. Created and maintained detailed administrative processes and procedures to drive efficiency and accuracy.",
       skills: [
         "Microsoft Excel",
         "Quickbooks",
