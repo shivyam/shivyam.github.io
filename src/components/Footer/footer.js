@@ -13,7 +13,7 @@ const Footer = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_36gs0dk', 'template_k07t7qa', form.current, 'J7ku8nKwCIql0IiCB')
+    emailjs.sendForm('service_gbesqdb', 'template_9dpnwgw', form.current, 'epsbxEZGNTiNwOYXG')
       .then((result) => {
           console.log(result.text);
           console.log("email sent");
@@ -43,7 +43,7 @@ const Footer = () => {
         <h3> Contact Me </h3>
         <form id="form1" ref={form} onSubmit={sendEmail}>
         <input type="text" placeholder="Full Name" name="user_name" required/>
-        <input type="number" placeholder="Phone Number" name="user_number" required/>
+        <input type="number" placeholder="Phone Number" name="user_number"/>
         <input type="email" placeholder="Email" name="user_email" required/>
         <textarea name="message" placeholder="Message" required/>
         <p className="msg" id="msg"></p>

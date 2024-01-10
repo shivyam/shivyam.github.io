@@ -1,12 +1,4 @@
 #intro{
-    /* height: calc(100vh - 4rem);
-    display:flex;
-    width: 100vw;
-    max-width:75rem;
-    margin:0 auto;
-    overflow:hidden;
-    position:relative; */
-
     position: relative;
     display: flex;
     align-items: center;
@@ -15,8 +7,6 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-
-
 }
 
 .bg{
@@ -64,7 +54,7 @@
     #intro{
         margin-top:120px;
         display:flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;   
         margin-left: 5%;
         margin-right: 5%;
