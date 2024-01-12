@@ -71,9 +71,17 @@ footer{
   }
   
   
-  footer h3{
-    padding-top:20px;
-    padding-bottom:20px;
+  .footerTitle{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: white;
+    @media (max-width: 768px) {
+      margin-top: 12px;
+      font-size: 32px;
+  }
   }
   
   .instaLogo{
@@ -87,3 +95,10 @@ footer{
     color: #24c624;
     font-size:13px;
   }
+
+  .contact-info{
+    font-size:15px;
+    font-weight:600;
+    margin-bottom: 20px;
+  }
+

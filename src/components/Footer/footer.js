@@ -37,10 +37,9 @@ const Footer = () => {
   return (
     <center>
     <footer id="contact">
-      
-
       <div className="contact-form" >
-        <h3> Contact Me </h3>
+        <p className="footerTitle"> Contact Me </p>
+        <p class="contact-info">mehtas47@mcmaster.ca | (778)-814-5001 </p>
         <form id="form1" ref={form} onSubmit={sendEmail}>
         <input type="text" placeholder="Full Name" name="user_name" required/>
         <input type="number" placeholder="Phone Number" name="user_number"/>
