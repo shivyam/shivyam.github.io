@@ -94,5 +94,13 @@
     color:pink;
     cursor:pointer;
     margin-left:35%;
+    border: 2px solid white
 }
 
+.cv-button:hover{
+    border: 2px solid pink;
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(73, 65, 57);
+    
+}

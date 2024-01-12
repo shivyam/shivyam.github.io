@@ -1,8 +1,11 @@
 import mcmaster from '../assets/mcmaster_logo.png';
 import moscrop from '../assets/moscrop_logo.png';
-
 import bollyfusion from '../assets/bollyfusion_logo.png';
 import metrocommunications from '../assets/metrocommunications_logo.png';
+import serverchatroom from '../assets/serverchatroom.png'
+import checkitoff from '../assets/checkitoff.png'
+import bollyfusion_website from '../assets/bollyfusion_website.png';
+
   export const education = [
     {
       id: 0,
@@ -39,9 +42,9 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
       desc: "Implemented innovative design solutions using ReactJS, HTML5, and CSS to create a visually appealing and responsive website that captivate users’ attention. Boosted customer engagement by implementing user-friendly forms and functionalities on the business website, facilitating seamless communication with owners through email and attracting a larger clientele. Implemented a proactive maintenance plan, ensuring the website’s continuous functionality. Consistently enhance content and features by incorporating feedback from both users and company owners.",
       skills: [
         "ReactJS",
-        "HTMl",
+        "HTML5",
         "CSS",
-        "Dreamhost",
+        "DreamHost",
       ],
     },
     {
@@ -57,10 +60,62 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
         "Communication",
       ],
     }
-
-    
-    
   ];
+
+
+  
+export const projects = [
+  {
+    id: 0,
+    title: "ServerChat",
+    description:
+      "A room-based communication system where users can join a chatroom by specifying a unique room name while on the same server.",
+    image:
+      serverchatroom,
+    tags: [
+      "Django",
+      "Python",
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    link: "https://github.com/shivyam/ServerChat",
+  },
+  {
+    id: 1,
+    title: "CheckItOff",
+    description:
+      "Developed a personal task manager application using Python and Django, offering robust features for task creation, editing, deletion, and status tracking.",
+    image: checkitoff,
+    tags: [
+      "Django",
+    "Python",
+    "HTML",
+    "CSS",],
+    category: "web app",
+    github: "https://github.com/shivyam/CheckItOff",
+  },
+  {
+    id: 2,
+    title: "Bollyfusion Website",
+    description:
+      "Crafted and deployed BollyFusion.ca, a dynamic showcase of Bollywood dance fusion. This project highlights my web design expertise, delivering a visually engaging and user-friendly experience.",
+    image:
+      bollyfusion_website,
+    tags: [
+      "ReactJS",
+      "HTML",
+      "CSS",
+    
+    ],
+    category: "web app",
+    link: "https://bollyfusion.ca",
+  },
+ 
+];
+
+
+
 
 
   export const skills = [

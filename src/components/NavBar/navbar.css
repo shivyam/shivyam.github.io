@@ -50,17 +50,25 @@
 
 
 .desktopMenuBtn{
-    border:none;
-    background: white;
-    color:black;
+    background-color: rgb(73, 65, 57);
+    color:white;
     cursor:pointer;
     /*makes img and text in same line with display flex*/
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-right: 1.5rem;
-    padding-left:0.5rem;
+    padding:1rem 1.5rem;
+    border: 2px solid white;
     border-radius: 2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.desktopMenuBtn:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(73, 65, 57);
+    
 }
 .desktopMenuImg{
     object-fit:cover;
@@ -105,7 +113,7 @@
 }
 
 
-@media screen and  (max-width:630px){
+@media screen and  (max-width:700px){
     .mobMenu{
         display:flex;
     }

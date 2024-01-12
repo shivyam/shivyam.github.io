@@ -70,7 +70,8 @@ const TimelineSection = styled.div`
     justify-content: center;
     gap: 12px;
     @media (max-width: 660px) {
-        align-items: center;
+        align-items: left;
+        padding-right:40px;
     }
 `;
 
