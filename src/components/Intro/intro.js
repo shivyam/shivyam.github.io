@@ -13,11 +13,9 @@ const Intro=()=>{
                 <p className="introText">I'm <span className="introName">Shivya</span> </p>
                 <p className="introParagraph1"> A third year <b>software engineering</b> student at McMaster University!</p>
     
-                <p className="introParagraph2"> Originally from Burnaby, BC, I moved to Ontario for university, motivated by a desire for diverse experiences 
-                    and opportunities. I am an enthusiastic, hardworking individual who thrives on taking on new challenges. 
-                    Fueled by a passion for learning, I approach every task with a positive attitude and a growth mindset. 
-                    Eager to make a meaningful contribution, I aspire to achieve great things in the ever-evolving field 
-                    of software development.</p>
+                <p className="introParagraph2"> I am an ambitious software developer from Vancouver, BC, with a unique background 
+                    that has equipped me to be a collaborative team player. Bilingual in French and English, I possess strong 
+                    communication skills, analytical problem-solving abilities, and the technical expertise to tackle any challenge.</p>
                     <a href="ShivyaMehtaResume.pdf" download="ShivyaMehtaResume.pdf"><button id="cv-button"  className="cv-button" >Download CV</button></a>
             
             

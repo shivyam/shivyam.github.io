@@ -42,8 +42,8 @@ const Footer = () => {
         <p class="contact-info">mehtas47@mcmaster.ca | (778)-814-5001 </p>
         <form id="form1" ref={form} onSubmit={sendEmail}>
         <input type="text" placeholder="Full Name" name="user_name" required/>
-        <input type="number" placeholder="Phone Number" name="user_number"/>
         <input type="email" placeholder="Email" name="user_email" required/>
+        <input type="text" placeholder="Subject" name="user_subject"/>
         <textarea name="message" placeholder="Message" required/>
         <p className="msg" id="msg"></p>
         <center><input className="button" type="submit" value="Send" /></center>

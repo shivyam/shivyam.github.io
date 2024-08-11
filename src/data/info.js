@@ -8,100 +8,23 @@ import bollyfusion_website from '../assets/bollyfusion_website.png';
 import enbridge from '../assets/enbridge.png';
 import mes from "../assets/mes.jpg";
 import promptly from "../assets/promptlycrop.png";
-export const education = [
-    {
-      id: 0,
-      img: mcmaster,
-      school: "McMaster University",
-      date: "September 2022 - April 2026",
-      location: "Hamilton, ON",
-      grade: "3.9 CGPA",
-      desc: "Currently pursuing a Bachelor's degree in Software Engineering. I have taken courses in Object-Oriented Programming, Digital Systems, Discrete Mathematics, and Data Structures.",
-      degree: "Bachelor of Engineering - B.Eng., Software Engineering",
-    },
-    {
-      id: 1,
-      img: moscrop,
-      school: "Moscrop Secondary School",
-      date: "September 2017 - July 2022",
-      location: "Burnaby, BC",
-      grade: "97%",
-      desc: "French Immersion program since Kindergarten, achieving a strong proficiency of the language and a deep appreciation for the culture.",
-      degree: "Double Dogwood Diploma",
-    }
-  ];
-  
-
-  export const experiences = [
-    {
-      id: 0,
-      img: metrocommunications,
-      role: "Administrative Assistant",
-      company: "Metro Communications Inc.",
-      date: "June 2018 - August 2022",
-      desc: "Handled cheques, filed paperwork, and received QuickBooks training for basic bookkeeping. Created and maintained detailed administrative processes and procedures to drive efficiency and accuracy.",
-      skills: [
-        "Microsoft Excel",
-        "Quickbooks",
-        "Communication",
-      ],
-    },
-    {
-      id: 1,
-      img: bollyfusion,
-      role: "Website Designer",
-      company: "Bollyfusion",
-      date: "June 2023 - Pfesent",
-      desc: "Implemented innovative design solutions using ReactJS, HTML5, and CSS to create a visually appealing and responsive website that captivate users’ attention. Boosted customer engagement by implementing user-friendly forms and functionalities on the business website, facilitating seamless communication with owners through email and attracting a larger clientele. Implemented a proactive maintenance plan, ensuring the website’s continuous functionality. Consistently enhance content and features by incorporating feedback from both users and company owners.",
-      skills: [
-        "ReactJS",
-        "HTML5",
-        "CSS",
-        "DreamHost",
-      ],
-    },
-    {
-      id: 2,
-      img: enbridge,
-      role: "Analyst Intern",
-      company: "Enbridge Gas",
-      date: "May 2024 - August 2024",
-      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
-      skills: [
-        "Microsoft Excel",
-        "Power BI",
-      ],
-    },
-    {
-      id: 3,
-      img: mes,
-      role: "Frontend Developer",
-      company: "McMaster Engineering Society",
-      date: "June 2024 - Present",
-      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
-      skills: [
-        "Next.Js",
-        "Tailwind CSS", 
-        "Figma", 
-        "Git"
-      ],
-    },
-  ];
-
-
-  
+import linkedoutreach from "../assets/linkedoutreach.png";
 export const projects = [
   {
     id: 4,
-    title: "Bollyfusion Website",
+    title: "LinkedOut Reach",
     description:
-      "Crafted and deployed BollyFusion.ca, a dynamic showcase of Bollywood dance fusion. This project highlights my web design expertise, delivering a visually engaging and user-friendly experience.",
+      "An application that connects users with like-minded individuals, leveraging shared commonalities to create personalized messages that help initiate conversations.",
     image:
-      bollyfusion_website,
+      linkedoutreach,
     tags: [
-      "ReactJS",
-      "HTML",
-      "CSS",
+      "Next.js",
+      "Typescript",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "Cohere",
+
     ],
     category: "web app",
     link: "https://bollyfusion.ca",
@@ -335,5 +258,86 @@ export const projects = [
         },
       ],
     },
+  ];
+  
+  
+  export const experiences = [
+    {
+      id: 0,
+      img: metrocommunications,
+      role: "Administrative Assistant",
+      company: "Metro Communications Inc.",
+      date: "June 2018 - August 2022",
+      desc: "Handled cheques, filed paperwork, and received QuickBooks training for basic bookkeeping. Created and maintained detailed administrative processes and procedures to drive efficiency and accuracy.",
+      skills: [
+        "Microsoft Excel",
+        "Quickbooks",
+        "Communication",
+      ],
+    },
+    {
+      id: 1,
+      img: bollyfusion,
+      role: "Website Designer",
+      company: "Bollyfusion",
+      date: "June 2023 - Pfesent",
+      desc: "Implemented innovative design solutions using ReactJS, HTML5, and CSS to create a visually appealing and responsive website that captivate users’ attention. Boosted customer engagement by implementing user-friendly forms and functionalities on the business website, facilitating seamless communication with owners through email and attracting a larger clientele. Implemented a proactive maintenance plan, ensuring the website’s continuous functionality. Consistently enhance content and features by incorporating feedback from both users and company owners.",
+      skills: [
+        "ReactJS",
+        "HTML5",
+        "CSS",
+        "DreamHost",
+      ],
+    },
+    {
+      id: 2,
+      img: enbridge,
+      role: "Analyst Intern",
+      company: "Enbridge Gas",
+      date: "May 2024 - August 2024",
+      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
+      skills: [
+        "Microsoft Excel",
+        "Power BI",
+      ],
+    },
+    {
+      id: 3,
+      img: mes,
+      role: "Frontend Developer",
+      company: "McMaster Engineering Society",
+      date: "June 2024 - Present",
+      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
+      skills: [
+        "Next.Js",
+        "Tailwind CSS", 
+        "Figma", 
+        "Git"
+      ],
+    },
+  ];
+
+
+  export const education = [
+    {
+      id: 0,
+      img: mcmaster,
+      school: "McMaster University",
+      date: "September 2022 - April 2026",
+      location: "Hamilton, ON",
+      grade: "3.9 CGPA",
+      desc: "Currently pursuing a Bachelor's degree in Software Engineering. I have taken courses in Object-Oriented Programming, Digital Systems, Discrete Mathematics, and Data Structures.",
+      degree: "Bachelor of Engineering - B.Eng., Software Engineering",
+    },
+    {
+      id: 1,
+      img: moscrop,
+      school: "Moscrop Secondary School",
+      date: "September 2017 - July 2022",
+      location: "Burnaby, BC",
+      grade: "97%",
+      desc: "French Immersion program since Kindergarten, achieving a strong proficiency of the language and a deep appreciation for the culture.",
+      degree: "Double Dogwood Diploma",
+    }
   ];
   
