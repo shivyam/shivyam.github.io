@@ -17,7 +17,7 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: white;
+    color: black;
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
@@ -65,7 +65,7 @@ const Card = styled.div`
 
     }
 
-    border: 0.1px solid pink;
+    border: 0.1px solid black;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `
 
@@ -95,7 +95,7 @@ const Body = styled.div`
 const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: black;
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }
@@ -104,7 +104,7 @@ const Role = styled.div`
 const Company = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    color: black;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -113,7 +113,7 @@ const Company = styled.div`
 const Date = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: white;
+    color: black;
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
@@ -136,7 +136,7 @@ const ItemWrapper = styled.div`
 const Skill = styled.div`
     font-size: 15px;
     font-weight: 400;
-    color: white;
+    color: black;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }

@@ -5,8 +5,10 @@ import metrocommunications from '../assets/metrocommunications_logo.png';
 import serverchatroom from '../assets/serverchatroom.png'
 import checkitoff from '../assets/checkitoff.png'
 import bollyfusion_website from '../assets/bollyfusion_website.png';
-
-  export const education = [
+import enbridge from '../assets/enbridge.png';
+import mes from "../assets/mes.jpg";
+import promptly from "../assets/promptlycrop.png";
+export const education = [
     {
       id: 0,
       img: mcmaster,
@@ -24,17 +26,28 @@ import bollyfusion_website from '../assets/bollyfusion_website.png';
       date: "September 2017 - July 2022",
       location: "Burnaby, BC",
       grade: "97%",
-      desc: "Successfully completed the French Immersion program since Kindergarten, achieving a strong proficiency of the language and a deep appreciation for the culture.",
+      desc: "French Immersion program since Kindergarten, achieving a strong proficiency of the language and a deep appreciation for the culture.",
       degree: "Double Dogwood Diploma",
     }
   ];
   
 
-
-
   export const experiences = [
     {
       id: 0,
+      img: metrocommunications,
+      role: "Administrative Assistant",
+      company: "Metro Communications Inc.",
+      date: "June 2018 - August 2022",
+      desc: "Handled cheques, filed paperwork, and received QuickBooks training for basic bookkeeping. Created and maintained detailed administrative processes and procedures to drive efficiency and accuracy.",
+      skills: [
+        "Microsoft Excel",
+        "Quickbooks",
+        "Communication",
+      ],
+    },
+    {
+      id: 1,
       img: bollyfusion,
       role: "Website Designer",
       company: "Bollyfusion",
@@ -48,25 +61,84 @@ import bollyfusion_website from '../assets/bollyfusion_website.png';
       ],
     },
     {
-      id: 1,
-      img: metrocommunications,
-      role: "Administrative Assistant",
-      company: "Metro Communications Inc.",
-      date: "June 2018 - August 2022",
-      desc: "Handled cheques, filed paperwork, and received QuickBooks training for basic bookkeeping. Created and maintained detailed administrative processes and procedures to drive efficiency and accuracy.",
+      id: 2,
+      img: enbridge,
+      role: "Analyst Intern",
+      company: "Enbridge Gas",
+      date: "May 2024 - August 2024",
+      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
       skills: [
         "Microsoft Excel",
-        "Quickbooks",
-        "Communication",
+        "Power BI",
       ],
-    }
+    },
+    {
+      id: 3,
+      img: mes,
+      role: "Frontend Developer",
+      company: "McMaster Engineering Society",
+      date: "June 2024 - Present",
+      desc: "Performed data collection, analysis, and entry using Microsoft Excel and Power BI, ensuring accurate records management and generating detailed reports for project management. Utilized strong problem-solving and analytical skills to validate customer information and calculate incentive payments, ensuring compliance with company procedures.",
+      skills: [
+        "Next.Js",
+        "Tailwind CSS", 
+        "Figma", 
+        "Git"
+      ],
+    },
   ];
 
 
   
 export const projects = [
   {
-    id: 0,
+    id: 4,
+    title: "Bollyfusion Website",
+    description:
+      "Crafted and deployed BollyFusion.ca, a dynamic showcase of Bollywood dance fusion. This project highlights my web design expertise, delivering a visually engaging and user-friendly experience.",
+    image:
+      bollyfusion_website,
+    tags: [
+      "ReactJS",
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    link: "https://bollyfusion.ca",
+  },
+  {
+    id: 3,
+    title: "Promptly",
+    description:
+      "A full-stack journaling application that allows users to write entries with all data securely stored in a MongoDB database. Submitted for StarterHacks 2024.",
+    image:
+      promptly,
+    tags: [
+      "Python",
+      "Flask",
+      "Next.js",
+      "MongoDB",
+    ],
+    category: "web app",
+    link: "https://github.com/shivyam/promptly",
+  },
+  {
+    id: 2,
+    title: "Bollyfusion Website",
+    description:
+      "Crafted and deployed BollyFusion.ca, a dynamic showcase of Bollywood dance fusion. This project highlights my web design expertise, delivering a visually engaging and user-friendly experience.",
+    image:
+      bollyfusion_website,
+    tags: [
+      "React.js",
+      "HTML",
+      "CSS",
+    ],
+    category: "web app",
+    link: "https://bollyfusion.ca",
+  },
+  {
+    id: 1,
     title: "ServerChat",
     description:
       "A room-based communication system where users can join a chatroom by specifying a unique room name while on the same server.",
@@ -82,36 +154,20 @@ export const projects = [
     link: "https://github.com/shivyam/ServerChat",
   },
   {
-    id: 1,
+    id: 0,
     title: "CheckItOff",
     description:
       "Developed a personal task manager application using Python and Django, offering robust features for task creation, editing, deletion, and status tracking.",
     image: checkitoff,
     tags: [
       "Django",
-    "Python",
-    "HTML",
-    "CSS",],
+      "Python",
+      "HTML",
+      "CSS",
+    ],
     category: "web app",
     github: "https://github.com/shivyam/CheckItOff",
   },
-  {
-    id: 2,
-    title: "Bollyfusion Website",
-    description:
-      "Crafted and deployed BollyFusion.ca, a dynamic showcase of Bollywood dance fusion. This project highlights my web design expertise, delivering a visually engaging and user-friendly experience.",
-    image:
-      bollyfusion_website,
-    tags: [
-      "ReactJS",
-      "HTML",
-      "CSS",
-    
-    ],
-    category: "web app",
-    link: "https://bollyfusion.ca",
-  },
- 
 ];
 
 

@@ -42,7 +42,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: white;
+  color: black;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -53,7 +53,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: white;
+    color: black;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -90,8 +90,8 @@ const Education = () => {
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: 'pink' }} />}
+                                    <TimelineDot variant="outlined" color="primary" />
+                                    {index !== experiences.length  && <TimelineConnector style={{ background: 'var(--theme)' }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

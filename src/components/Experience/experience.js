@@ -13,7 +13,7 @@ import { experiences } from '../../data/info';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -43,7 +43,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: white;
+  color: black;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -71,11 +71,11 @@ const index = () => {
                 <Title>Experience</Title>
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,index) => (
+                        {experiences.reverse().map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length && <TimelineConnector style={{ background: 'pink' }} />}
+                                    <TimelineDot variant="outlined" color="primary" />
+                                    {index !== experiences.length && <TimelineConnector style={{ background: 'var(--theme)' }} />}
                                 </TimelineSeparator>
             
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>

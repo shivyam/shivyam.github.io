@@ -17,7 +17,7 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 500px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -107,8 +107,8 @@ const Description = styled.div`
 
 const ProjectInfo = styled.div`
     padding:1rem 0;
-    color:white;
-    text-shadow: 2px 2px 5px black;
+    color:black;
+    text-shadow: 1px 1px 11px gray;
     &:hover {
         text-decoration:underline;
     }

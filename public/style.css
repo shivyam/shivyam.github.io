@@ -1,3 +1,8 @@
+:root{
+    --theme: rgb(36, 51, 150);
+}
+
+
 *{
     margin:0;
     padding:0;
@@ -5,13 +10,14 @@
     text-decoration: none;
     background: transparent;
     font-family:"Poppins", sans-serif;
+    
 }
 
 
 body{
     /*background: rgb(77, 76, 76);*/
-    background: rgb(73, 65, 57);
-    color:white;
+    background: rgb(255, 255, 255);
+    color:black;
     overflow: hidden;
     overflow-y:scroll;
 }

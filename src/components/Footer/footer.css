@@ -1,14 +1,8 @@
 footer{
-    background: rgba(48, 40, 51, 0.229);
+    background: rgba(121, 136, 181, 0.229);
     padding: 1rem;
   }
   
-  .insta-logo{
-    background-color: rgba(17, 19, 19, 0.199);
-    padding: 10px 5px;
-    border-radius: 30px;
-    width: 30px;
-  }
   
   footer section{
     display:flex;
@@ -24,16 +18,15 @@ footer{
     max-width: 600px;
     display:flex;
     flex-direction:column;
-    gap:12px;
-  
-    
-    
+    gap:12px;  
   }
   
   .contact-form input{
     background:rgba(255, 255, 255, 0.875);
     height: 40px;
     padding: 15px;
+    border: none;
+    border-radius: 2rem;
   }
   
   input::-webkit-outer-spin-button,
@@ -41,6 +34,7 @@ footer{
     -webkit-appearance: none;
     margin: 0;
   }
+  
   
   /* Firefox */
   input[type=number] {
@@ -53,20 +47,22 @@ footer{
     padding: 15px;
     resize: none;
     background:rgba(255, 255, 255, 0.875);
+    border: none;
+    border-radius: 1rem;
   }
   
   .contact-form .button{
     width: 100px;
     height: 40px;
-    background-color:pink;
+    background-color:var(--theme);
     padding-top:9px;
     justify-content: center;
     align-items: center;
-    
+    color: white;
   }
   
   .contact-form .button:hover{
-    background-color: #ef7eb8;
+    background-color: #2b20bf;
     cursor:pointer;
   }
   
@@ -77,7 +73,7 @@ footer{
     font-weight: 600;
     margin-top: 20px;
     margin-bottom:20px;
-    color: white;
+    color: black;
     @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;

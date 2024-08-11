@@ -5,7 +5,7 @@ import contactImg from '../../assets/contact.png';
 
 import {useState} from 'react'
 import logo from '../../assets/logo.png';
-import menu from '../../assets/menu2.png';
+import menu from '../../assets/menu.png';
 
 const Navbar=()=>{
 
@@ -26,7 +26,8 @@ const Navbar=()=>{
 
     return(
         <nav className={fix ? 'navbar fixed' : 'navbar' }> 
-            <img src={logo} alt="logo" className="logo"></img>
+            {/* <img src={logo} alt="logo" className="logo"></img> */}
+            <p className="nameLogo">Shivya M.</p>
             <div className="desktopMenu">
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Experience</Link>

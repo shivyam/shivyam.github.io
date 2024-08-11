@@ -1,10 +1,10 @@
 .navbar{
     scroll-behavior: smooth;
-    height: 8rem;
+    height: 6rem;
     width: 100vw;
     max-width: 100%;
     margin: 0 auto;
-    padding:2rem 2rem;
+    padding: 2rem 2rem;
     display:flex;
     align-items: center;
 
@@ -21,7 +21,7 @@
 }
 
 .navbar.fixed{
-    background-color:rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
     transition: 0.3s ease-in-out;
 }
 
@@ -30,6 +30,11 @@
     object-fit:cover;
     height: 4rem;
     width:6rem;
+}
+
+.nameLogo{
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .desktopMenuListItem{
@@ -41,24 +46,24 @@
 
 .desktopMenuListItem:hover{
     /*spaces out navbar text*/
-    color:pink;
+    color:var(--theme);
     padding-bottom:0.5rem;
-    border-bottom:3px solid pink;
+    border-bottom:3px solid var(--theme);
     transition: 0.5s;
 }
 
 
 
 .desktopMenuBtn{
-    background-color: rgb(73, 65, 57);
-    color:white;
+    background-color: white;
+    color: black;
     cursor:pointer;
     /*makes img and text in same line with display flex*/
     display:flex;
     align-items:center;
     justify-content:center;
     padding:1rem 1.5rem;
-    border: 2px solid white;
+    border: 2px solid var(--theme);
     border-radius: 2rem;
     font-weight: 600;
     font-size: 0.9rem;
@@ -66,8 +71,8 @@
 
 .desktopMenuBtn:hover{
     transition: 0.5s;
-    background-color: white;
-    color: rgb(73, 65, 57);
+    background-color: var(--theme);
+    color: white;
     
 }
 .desktopMenuImg{
@@ -79,9 +84,9 @@
 }
 
 .active{
-    color:pink;
+    color:var(--theme);
     padding-bottom:0.5rem;
-    border-bottom: 3px solid pink;
+    border-bottom: 3px solid var(--theme);
 
 }
 
@@ -113,7 +118,7 @@
 }
 
 
-@media screen and  (max-width:700px){
+@media screen and  (max-width:785px){
     .mobMenu{
         display:flex;
     }

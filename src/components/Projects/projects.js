@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    background: linear-gradient(343.07deg, rgba(153, 80, 0, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
+    background: linear-gradient(343.07deg, rgba(121, 136, 181, 0.1) 5.71%, rgba(132, 59, 206, 0) 64.83%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@ text-align: center;
 font-weight: 600;
 margin-top: 20px;
 margin-bottom:20px;
-  color: white;
+  color: black;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -48,7 +48,7 @@ export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: white;
+    color: black;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -139,9 +139,8 @@ const Projects = () => {
           }
         </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard project={project}/>
+          {toggle === 'all' && projects.reverse().map((project, index) => (
+              <ProjectCard key={index} project={project}/>
             ))}
           {projects
             .filter((item) => item.category == toggle)
