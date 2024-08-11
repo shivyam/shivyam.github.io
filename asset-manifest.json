@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d237abcb.css",
+    "main.js": "/static/js/main.8d7a7e7b.js",
+    "static/media/bollyfusion_website.png": "/static/media/bollyfusion_website.eaa9587a58e6dd1e7221.png",
+    "static/media/bollyfusion_logo.png": "/static/media/bollyfusion_logo.df7a04b7879be0375294.png",
+    "static/media/linkedoutreach.png": "/static/media/linkedoutreach.3903536e15fc623020b5.png",
+    "static/media/moscrop_logo.png": "/static/media/moscrop_logo.3281c8ea4b3ff63c7aef.png",
+    "static/media/face2.png": "/static/media/face2.33bebe7bb1495756b791.png",
+    "static/media/metrocommunications_logo.png": "/static/media/metrocommunications_logo.e85c557b7144b4063b59.png",
+    "static/media/promptlycrop.png": "/static/media/promptlycrop.d3d54af3b0db7bdf434b.png",
+    "static/media/enbridge.png": "/static/media/enbridge.a8b439f9c7117f1329b3.png",
+    "static/media/logo.png": "/static/media/logo.52c049aacfe5da17f8dc.png",
+    "static/media/mcmaster_logo.png": "/static/media/mcmaster_logo.1883575d05407e4276eb.png",
+    "static/media/serverchatroom.png": "/static/media/serverchatroom.04c00eccf0b7931816f1.png",
+    "static/media/checkitoff.png": "/static/media/checkitoff.5f6c4c9723e1ed815464.png",
+    "static/media/mes.jpg": "/static/media/mes.a47865d6ad44282852a6.jpg",
+    "index.html": "/index.html",
+    "main.d237abcb.css.map": "/static/css/main.d237abcb.css.map",
+    "main.8d7a7e7b.js.map": "/static/js/main.8d7a7e7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d237abcb.css",
+    "static/js/main.8d7a7e7b.js"
+  ]
+}
