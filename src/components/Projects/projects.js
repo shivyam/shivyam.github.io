@@ -139,7 +139,7 @@ const Projects = () => {
           }
         </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects.reverse().map((project, index) => (
+          {toggle === 'all' && projects.map((project, index) => (
               <ProjectCard key={index} project={project}/>
             ))}
           {projects
