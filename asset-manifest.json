@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d237abcb.css",
-    "main.js": "/static/js/main.0426afd9.js",
+    "main.js": "/static/js/main.b60a63ec.js",
     "static/media/centsible.png": "/static/media/centsible.eb331e272aae853788b5.png",
     "static/media/bollyfusion_logo.png": "/static/media/bollyfusion_logo.df7a04b7879be0375294.png",
     "static/media/bollyfusion_website.png": "/static/media/bollyfusion_website.956527ab462726156d70.png",
@@ -18,10 +18,10 @@
     "static/media/mes.jpg": "/static/media/mes.a47865d6ad44282852a6.jpg",
     "index.html": "/index.html",
     "main.d237abcb.css.map": "/static/css/main.d237abcb.css.map",
-    "main.0426afd9.js.map": "/static/js/main.0426afd9.js.map"
+    "main.b60a63ec.js.map": "/static/js/main.b60a63ec.js.map"
   },
   "entrypoints": [
     "static/css/main.d237abcb.css",
-    "static/js/main.0426afd9.js"
+    "static/js/main.b60a63ec.js"
   ]
 }
