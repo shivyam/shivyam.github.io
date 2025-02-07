@@ -6,14 +6,12 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    // background: linear-gradient(343.07deg, rgba(121, 136, 181, 0.1) 5.71%, rgba(132, 59, 206, 0) 64.83%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     z-index: 1;
     align-items: center;
-    //clip-path: polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%);
 `;
 
 export const Wrapper = styled.div`
@@ -99,16 +97,16 @@ export const CardContainer = styled.div`
     align-items: center;
     gap: 28px;
     flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 32px;
-    // grid-auto-rows: minmax(100px, auto);
-    // @media (max-width: 960px) {
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media (max-width: 640px) {
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    grid-auto-rows: minmax(100px, auto);
+    @media (max-width: 1080px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 640px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 const Projects = () => {
